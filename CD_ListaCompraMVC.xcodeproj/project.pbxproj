@@ -9,21 +9,21 @@
 /* Begin PBXBuildFile section */
 		0C73554A24905A9F00F1E771 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C73554924905A9F00F1E771 /* AppDelegate.swift */; };
 		0C73554C24905A9F00F1E771 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C73554B24905A9F00F1E771 /* SceneDelegate.swift */; };
-		0C73554E24905A9F00F1E771 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C73554D24905A9F00F1E771 /* ViewController.swift */; };
-		0C73555124905A9F00F1E771 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C73554F24905A9F00F1E771 /* Main.storyboard */; };
 		0C73555324905AA000F1E771 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C73555224905AA000F1E771 /* Assets.xcassets */; };
-		0C73555624905AA000F1E771 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C73555424905AA000F1E771 /* LaunchScreen.storyboard */; };
+		0C73555E24905AD400F1E771 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C73555D24905AD400F1E771 /* LaunchScreen.storyboard */; };
+		0C73556024905AED00F1E771 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C73555F24905AED00F1E771 /* Main.storyboard */; };
+		0C73556424905B7800F1E771 /* ListaCompraTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C73556324905B7800F1E771 /* ListaCompraTVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0C73554624905A9F00F1E771 /* CD_ListaCompraMVC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CD_ListaCompraMVC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C73554924905A9F00F1E771 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0C73554B24905A9F00F1E771 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		0C73554D24905A9F00F1E771 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		0C73555024905A9F00F1E771 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0C73555224905AA000F1E771 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		0C73555524905AA000F1E771 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0C73555724905AA000F1E771 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0C73555D24905AD400F1E771 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0C73555F24905AED00F1E771 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		0C73556324905B7800F1E771 /* ListaCompraTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListaCompraTVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,10 +58,10 @@
 			children = (
 				0C73554924905A9F00F1E771 /* AppDelegate.swift */,
 				0C73554B24905A9F00F1E771 /* SceneDelegate.swift */,
-				0C73554D24905A9F00F1E771 /* ViewController.swift */,
-				0C73554F24905A9F00F1E771 /* Main.storyboard */,
+				0C73556324905B7800F1E771 /* ListaCompraTVC.swift */,
+				0C73555F24905AED00F1E771 /* Main.storyboard */,
+				0C73555D24905AD400F1E771 /* LaunchScreen.storyboard */,
 				0C73555224905AA000F1E771 /* Assets.xcassets */,
-				0C73555424905AA000F1E771 /* LaunchScreen.storyboard */,
 				0C73555724905AA000F1E771 /* Info.plist */,
 			);
 			path = CD_ListaCompraMVC;
@@ -125,9 +125,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0C73555624905AA000F1E771 /* LaunchScreen.storyboard in Resources */,
+				0C73556024905AED00F1E771 /* Main.storyboard in Resources */,
 				0C73555324905AA000F1E771 /* Assets.xcassets in Resources */,
-				0C73555124905A9F00F1E771 /* Main.storyboard in Resources */,
+				0C73555E24905AD400F1E771 /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,32 +138,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0C73554E24905A9F00F1E771 /* ViewController.swift in Sources */,
 				0C73554A24905A9F00F1E771 /* AppDelegate.swift in Sources */,
+				0C73556424905B7800F1E771 /* ListaCompraTVC.swift in Sources */,
 				0C73554C24905A9F00F1E771 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		0C73554F24905A9F00F1E771 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0C73555024905A9F00F1E771 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		0C73555424905AA000F1E771 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0C73555524905AA000F1E771 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		0C73555824905AA000F1E771 /* Debug */ = {
@@ -287,6 +268,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = A9BV75HGP3;
 				INFOPLIST_FILE = CD_ListaCompraMVC/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -294,7 +276,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "miguel.gallego.CD-ListaCompraMVC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -305,6 +287,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = A9BV75HGP3;
 				INFOPLIST_FILE = CD_ListaCompraMVC/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -312,7 +295,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "miguel.gallego.CD-ListaCompraMVC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
