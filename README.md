@@ -1,0 +1,2 @@
+# CD_ListaCompraMVC
+Usa NSFetchResultsController y NSFetchResultsControllerDelegate
